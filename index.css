@@ -4,11 +4,20 @@
 }
 
 body{
-  color: white;
+  color: white !important;
+ 
+}
+
+.home{
+  color: white !important;
   background: url("./SkaMain.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: left
+}
+
+.menu{
+  color: red;
 }
 
 .header{
