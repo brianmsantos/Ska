@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: white;
+  background: url("./SkaMain.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: left
+}
+
+.header{
+  width: 100%;
+  background-color: rgba(0,0,0,1)
+}
+.header{
+  background-color: rgba(0,0,0,.1) !important;
+  opacity: .9
+}
+
+.navbar-nav{
+  color: white;
+}
