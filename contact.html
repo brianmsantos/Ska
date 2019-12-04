@@ -6,32 +6,103 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Gupter:500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/c7be52db70.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  
   <title>Ska Bar</title>
 </head>
 <body>
-
-    <nav class="header navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img src="SkaBarLogo.png" width="200px" height="100%" alt="Ska Bar">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-              <a class="nav-item nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="./menu.html">Drinks</a>
-              <a class="nav-item nav-link" href="./drinks.html">Menu</a>
-              <a class="nav-item nav-link" href="./social.html">Social</a>
-              <a class="nav-item nav-link" href="">Contact</a>
+  <nav class="header navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="SkaBarLogo.png" width="200px" height="100%" alt="Ska Bar" class="logo">
+      </a>
+      <span class="navbar-nav ml-auto">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="./index.html"><h3 class="links">Home</h3></a>
+                <a class="nav-item nav-link" href="./drinks.html"><h3 class="links">Drinks</h3></a>
+                <a class="nav-item nav-link" href="./menu.html"><h3 class="links">Menu</h3></a>
+                <a class="nav-item nav-link" href="./about.html"><h3 class="links">About</h3></a>
+                <a class="nav-item nav-link" href="#"><h3 class="links">Contact</h3></a>
+              </div>
+            </div>
+      </span>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.0779326928814!2d-117.12583748437376!3d32.76366658097596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95534261f2a9d%3A0xa3734c845fd55311!2sSKA%20Bar%20%26%20Restaurant!5e0!3m2!1sen!2sus!4v1575495892466!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="map"></iframe>
+        </div>
+        <div class="col-md-6 info">
+          <h2>
+            3250 Adams Avenue<br>
+            San Diego, CA<br>
+            92116
+          </h2>
+          <br>
+          <h2>
+            <i class="fas fa-phone-alt"></i>
+            (619)230-5038<br>
+            <i class="fas fa-envelope"></i>
+            info@skabarsandiego.com
+          </h2>
+            <br>
+          <h2>
+            Hours: 11:30am-12am every day
+          </h2>
+          
+          <a href="https://www.facebook.com/SKA-Bar-San-Diego-113575510005673/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/skabarsandiego/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <!-- <div class="col-md-7 col-sm-6 col-xs-12 segment-one">
+                <img src="asat_2015-layer 1.png" width="200px" height="100px" class="d-inline-block align-top" alt="">
+                <h3>Assured Space Access Technologies, Inc.</h3>
+                <p>207 North Gilbert Road
+                  <br>
+                  Gilbert, Arizona 85234
+                </p>
+                <br>
+                <p>Tel(480)739-9111
+                  <br>
+                  Fax(480)400-1814
+                </p>
+                <br>
+                <p>info@assuredspace.com</p>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 segment-two">
+                  <h2>Company</h2>
+                  <ul>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Set-Asides</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">ATLAS</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-2 col-sm-6 col-xs-12 segment-three">
+                <h2>Set-Aside</h2>
+                <p>Please follow us at the following links.</p>
+                <a href=""><i class="fa fa-fb"></i></a>
+                <a href=""><i class="fa fa-fb"></i></a>
+                <a href=""><i class="fa fa-fb"></i></a>
+                <a href=""><i class="fa fa-fb"></i></a> -->
+              </div>
+            </div>
+            <hr>
+            <h6>Copyright &copy 2019 Ska Bar. All Rights Reserved</h6>
           </div>
         </div>
-      </nav>
-
-      <div class="row">
-        <div><h1>SKA BAR</h1></div>
-      </div>
+      </footer>
+    
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

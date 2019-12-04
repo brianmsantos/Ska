@@ -24,6 +24,11 @@ body{
   background-attachment: fixed;
 }
 
+.logo{
+  opacity: .9;
+  padding-left: 30px
+}
+
 .menu{
   color: red;
 }
