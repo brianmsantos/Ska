@@ -4,9 +4,21 @@
 }
 
 body{
-  color: white !important;
-  font-family: 'Gupter', 'serif';
- 
+  font-family: 'Gupter', serif;
+  font: black;
+}
+
+.header{
+  width: 100%;
+  background-color: rgba(0,0,0,1)
+}
+.header{
+  background-color: rgba(0,0,0,.0) !important;
+  opacity: .9
+}
+
+.links{
+  color: white;
 }
 
 .home{
@@ -24,24 +36,8 @@ body{
   background-attachment: fixed;
 }
 
-.menu{
-  color: red;
-}
-
-.links{
-  color: white !important
-  ;
-}
-
-.header{
-  width: 100%;
-  background-color: rgba(0,0,0,1)
-}
-.header{
-  background-color: rgba(0,0,0,.0) !important;
-  opacity: .9
-}
-
-.navbar-nav{
-  color: white;
+.description{
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
 }
