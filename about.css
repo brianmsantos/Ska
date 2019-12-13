@@ -6,6 +6,11 @@
 body{
   font-family: 'Gupter', serif;
   font: black;
+  position: relative
+}
+
+.collapse{
+  padding-right: 30px;
 }
 
 .header{
@@ -23,14 +28,14 @@ body{
 
 .home{
   color: white !important;
-  background: url("./SkaMain.jpg") no-repeat;
+  background: url("./SkaBarStreetView.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: left;
   background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
-    url(./SkaMain.jpg);
+    url(./SkaBarStreetView.jpg);
   background-size: cover;
   height: 100vh;
   background-attachment: fixed;
@@ -38,6 +43,24 @@ body{
 
 .description{
   margin: auto;
-  padding-top: 50px;
+  padding-top: 25px;
   text-align: center;
+}
+
+.footer {
+  color: white;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #145676;
+  opacity: .9;
+}
+
+.copyright{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+
 }
