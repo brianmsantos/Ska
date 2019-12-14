@@ -58,6 +58,11 @@ body{
   text-align: center
 }
 
+.menu-change{
+  text-align: center;
+  padding-top: 250px
+}
+
 .footer {
   color: white;
   position: absolute;

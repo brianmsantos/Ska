@@ -22,6 +22,7 @@ body{
 
 .description{
   text-align: center;
+  font-size: 48px
 }
 
 .header{
@@ -53,12 +54,17 @@ body{
 
 .drinks{
   display: inline;
+  text-transform: uppercase;
   text-decoration: underline;
   font-size: 30px;
 }
 
 .price{
   display: inline
+}
+
+.list{
+  font-style: italic;
 }
 
 .cocktail{
