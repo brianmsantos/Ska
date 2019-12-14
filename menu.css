@@ -36,11 +36,26 @@ body{
 
 .description{
   text-align: center;
+  font-size: 48px
 }
 
 .food{
+  display: inline;
+  text-transform: uppercase;
   text-decoration: underline;
   font-size: 30px;
+}
+
+.price{
+  display: inline
+}
+
+.list{
+  font-style: italic
+}
+
+.substitute{
+  text-align: center
 }
 
 .footer {

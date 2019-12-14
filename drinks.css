@@ -52,7 +52,9 @@ body{
 }
 
 .drinks{
-  display: inline
+  display: inline;
+  text-decoration: underline;
+  font-size: 30px;
 }
 
 .price{
@@ -63,10 +65,7 @@ body{
   padding: 40px 0 40px 0;
 }
 
-.drinks{
-  text-decoration: underline;
-  font-size: 30px;
-}
+
 
 .drink-image{
   display: block;
