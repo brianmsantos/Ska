@@ -48,6 +48,32 @@ body{
   vertical-align: middle;
 }
 
+.beer-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-beer{
+  flex: 50%;
+}
+
+.right-beer{
+  flex: 50%;
+}
+
+.wine-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-wine{
+  flex: 50%;
+}
+
+.right-wine{
+  flex: 50%;
+}
+
 .links{
   color: black
 }
@@ -59,6 +85,11 @@ body{
   font-size: 30px;
 }
 
+.beer{
+  font-size: 25px;
+  display: inline;
+}
+
 .price{
   display: inline
 }
@@ -67,8 +98,8 @@ body{
   font-style: italic;
 }
 
-.cocktail{
-  padding: 40px 0 40px 0;
+.city{
+  font-style: italic;
 }
 
 
