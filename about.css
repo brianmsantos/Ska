@@ -37,7 +37,7 @@ body{
     rgba(0, 0, 0, 0.5)),
     url(./SkaBarStreetView.jpg);
   background-size: cover;
-  height: 100vh;
+
   background-attachment: fixed;
 }
 
