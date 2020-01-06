@@ -32,6 +32,12 @@ body{
   background-color: rgba(0,0,0,1)
 }
 
+.top-drink{
+  width: 100%;
+  height: 90vh;
+  padding-bottom: 30px
+}
+
 .brick-row{
   display: flex;
   flex-wrap: wrap;
@@ -94,6 +100,11 @@ body{
   display: inline;
 }
 
+.wine{
+  font-size: 25px;
+  display: inline;
+}
+
 .price{
   display: inline
 }
@@ -103,6 +114,10 @@ body{
 }
 
 .city{
+  font-style: italic;
+}
+
+.state{
   font-style: italic;
 }
 
