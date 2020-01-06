@@ -59,8 +59,9 @@ footer{
 
 .footer {
   left: 0;
+  bottom: 0;
   color: white;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   margin: auto;
   width: 100%;
