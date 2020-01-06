@@ -17,14 +17,15 @@ body{
   color: white !important;
   background: url("./SkaMain.jpg") no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: auto;
+  width: 100%;
   background-position: left;
   background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
     url(./SkaMain.jpg);
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
   background-attachment: fixed;
 }
 

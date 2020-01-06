@@ -30,6 +30,18 @@ iframe {
   display: block;
 }
 
+.instagram{
+  height: 50px;
+  width: auto;
+
+}
+
+.facebook{
+  height: 50px;
+  width: auto;
+  padding-right: 5px
+}
+
 footer{
   flex: auto 0 0;
   background-color: aqua;
@@ -46,6 +58,7 @@ footer{
 }
 
 .footer {
+  left: 0;
   color: white;
   position: absolute;
   bottom: 0;

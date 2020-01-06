@@ -30,7 +30,8 @@ body{
   color: white !important;
   background: url("./SkaBarStreetView.jpg") no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: auto;
+  width: 100%;
   background-position: left;
   background: linear-gradient(
     rgba(0, 0, 0, 0.5),
@@ -48,6 +49,7 @@ body{
 }
 
 .footer {
+  right: 0;
   left: 0;
   bottom: 0;
   color: white;
