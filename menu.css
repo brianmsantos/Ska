@@ -46,6 +46,14 @@ body{
   font-size: 30px;
 }
 
+.drinks{
+  display: inline
+}
+
+.happy-hour-item{
+  display: inline;
+}
+
 .price{
   display: inline
 }
