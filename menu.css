@@ -20,6 +20,11 @@ body{
   padding-right: 30px;
 }
 
+.custom-toggle{
+  background: white;
+  border-color: #145676
+}
+
 .links{
   color: white;
 }

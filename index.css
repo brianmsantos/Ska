@@ -9,25 +9,57 @@ body{
  
 }
 
+body {
+  /* Location of the image */
+  background: url("./SkaMain.jpg");
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+
+  background-color: rgba(0, 0, 0, 0.5)
+
+}
+
 .collapse{
   padding-right: 30px;
 }
 
-.home{
+.custom-toggle{
+  background: white;
+  border-color: #145676
+}
+
+/* .home{
   color: white !important;
   background: url("./SkaMain.jpg") no-repeat;
   background-size: cover;
   height: auto;
   width: 100%;
-  background-position: left;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),
     url(./SkaMain.jpg);
-  background-size: cover;
-  /* height: 100vh; */
-  background-attachment: fixed;
-}
+  background-color: #464646;
+} */
 
 .logo{
   opacity: .9;

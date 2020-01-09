@@ -19,6 +19,11 @@ body{
   padding-right: 30px;
 }
 
+.custom-toggle{
+  background: white;
+  border-color: #145676
+}
+
 .header{
   width: 100%;
   background-color: rgba(0,0,0,1)
