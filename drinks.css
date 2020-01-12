@@ -109,9 +109,15 @@ body{
   display: inline
 }
 
-.list{
+.ingredients{
   font-style: italic;
+  margin-bottom: 4px
+
 }
+
+/* .list{
+  font-style: italic;
+} */
 
 .city{
   font-style: italic;
