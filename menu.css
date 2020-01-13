@@ -5,6 +5,7 @@
 
 body{
   font-family: 'Gupter', serif;
+  background: url("./SkaBarFood.jpg") no-repeat center;
   color: white !important;
   background: linear-gradient(
     rgba(0, 0, 0, 0.5),
